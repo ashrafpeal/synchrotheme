@@ -4,6 +4,7 @@ import Page_Banner from "@/component/page/page-banner";
 import Head from "next/head";
 
 import UTPW from "@/img/Unlocking-the-Power-of-WordPress-with-HTML-to-WordPress-Conversion.jpeg";
+import Image from "next/image";
 
 
 export default function Single({blogs, link}) {
@@ -40,7 +41,7 @@ export default function Single({blogs, link}) {
                         <div className="col-md-8 offset-md-2">
                             <div className="blog_post_image mb-3">
                                 <div className="blog_post_inner">
-                                    <img src={img} className="rounded mb-3" alt={ title } />
+                                    <Image src={img} className="rounded mb-3" alt={ title } />
                                     <h3 className="lh-base">{ title }</h3>
                                 </div>
                             </div>
