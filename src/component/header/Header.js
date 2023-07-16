@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Logo from "@/img/logo.png"
+import Image from "next/image";
 import Link from "next/link";
-import Theme from "@/pages/theme";
 
 const Header = () => {
   return (
@@ -30,9 +29,9 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link className="nav-link" href="/theme">Themes</Link>
                                     </li>
-                                    {/* <li className="nav-item">
+                                    <li className="nav-item">
                                         <Link className="nav-link" href="/blog">Blog</Link>
-                                    </li> */}
+                                    </li>
                                 </ul>
                             </div>
                         </div>

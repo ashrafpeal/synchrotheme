@@ -1,8 +1,8 @@
-import Image from "next/image";
 import BoxOne from '@/img/box-1.svg'
 import BoxTwo from '@/img/box-2.svg'
 import BoxThree from '@/img/box-3.svg'
 import HomeBanner from '@/img/home-banner.png'
+import Image from 'next/image';
 import TypewriterComponent from "typewriter-effect";
 export default function Banner() {
     return (
@@ -26,7 +26,7 @@ export default function Banner() {
                             <p>Our Popular Plugins classNameified Listing, The Post Grid, Team member, Testimonial Slider, Woocommerce Variation Swatches & Gallery.</p>
                             <div className="home_boxs d-flex">
                                 <div className="home_box d-flex align-items-center bg-white py-2 px-4 rounded-pill me-2">
-                                    <div className="img me-2">
+                                    <div className="Image me-2">
                                         <Image src={BoxOne} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">
@@ -35,7 +35,7 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 <div className="home_box d-flex align-items-center bg-white py-2 px-4 rounded-pill me-2">
-                                    <div className="img me-2">
+                                    <div className="Image me-2">
                                         <Image src={BoxTwo} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">
@@ -44,7 +44,7 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 <div className="home_box d-flex align-items-center bg-white py-2 px-4 rounded-pill">
-                                    <div className="img me-2">
+                                    <div className="Image me-2">
                                         <Image src={BoxThree} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">

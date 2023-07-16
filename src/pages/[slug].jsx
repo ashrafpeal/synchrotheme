@@ -932,7 +932,7 @@ export function getStaticProps({params}) {
         {
             id: 15,
             image: tpp,
-            title: "Taso - Personal Portfolio Template",
+            title: "Taso Personal Portfolio Template",
             demo: "",
             buy: "",
             attr: {
