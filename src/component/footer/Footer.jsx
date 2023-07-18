@@ -15,20 +15,17 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-md-4">
                             <Image src={logo} style={{ width: "200px", height: "25px" }} alt="SynchroTheme" />
-                            <p className="mt-3">We create professional WordPress Themes, WordPress Plugins and Android & iOS Mobile Application.</p>
+                            <p className="mt-3">Synchrotheme is a team of tech lover and web enthusiasts with the mission to provide web application, wordpress theme and plugin.</p>
                             <ul className="footer_social p-0 m-0 list-unstyled d-flex">
-                                <li><Link href="#" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faFacebookF} style={{ transform: "scale(.7)" }} /></Link></li>
-                                <li><Link href="#" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faTwitter} /></Link></li>
-                                <li><Link href="#" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
-                                <li><Link href="#" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faYoutube} /></Link></li>
-                                <li><Link href="#" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faInstagram} /></Link></li>
+                                <li><Link href="https://www.facebook.com/synchrotheme" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faFacebookF} style={{ transform: "scale(.7)" }} /></Link></li>
+                                <li><Link href="https://www.linkedin.com/company/synchrotheme/" className="text-white d-inline-flex justify-content-center align-items-center me-2 rounded-pill"><FontAwesomeIcon icon={faLinkedinIn} /></Link></li>
                             </ul>
                         </div>
                         <div className="col-md-3 offset-md-1">
                             <h6>Quick Links</h6>
                             <ul className="footer_menu p-0 m-0">
                                 <li><Link className="m-0 text-decoration-underline d-inline-block mb-2" href="/plugins"><i className="fa-solid fa-angles-right me-2"></i>Plugins</Link></li>
-                                <li><Link className="m-0 text-decoration-underline d-inline-block mb-2" href="/theme"><i className="fa-solid fa-angles-right me-2"></i>Themes</Link></li>
+                                <li><Link className="m-0 text-decoration-underline d-inline-block mb-2" href="/themes"><i className="fa-solid fa-angles-right me-2"></i>Themes</Link></li>
                                 <li><Link className="m-0 text-decoration-underline d-inline-block mb-2" href="/scripts"><i className="fa-solid fa-angles-right me-2"></i>Scripts</Link></li>
                                 <li><Link className="m-0 text-decoration-underline d-inline-block mb-2" href="/blog"><i className="fa-solid fa-angles-right me-2"></i>Blog</Link></li>
                             </ul>

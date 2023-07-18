@@ -41,9 +41,8 @@ export default function Theme() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 offset-md-3">
-                        <div className="section_title text-center pb-4">
+                        <div className="section_title text-center mb-5 pb-4">
                             <h4>Themeforest Latest Themes</h4>
-                            <p>We are Power Elite author at Envato Market have 34 themes in different categories also has 10+ theme in our site.</p>
                         </div>
                     </div>
                 </div>

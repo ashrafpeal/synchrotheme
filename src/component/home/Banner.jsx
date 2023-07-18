@@ -1,7 +1,7 @@
 import BoxOne from '@/img/box-1.svg'
 import BoxTwo from '@/img/box-2.svg'
 import BoxThree from '@/img/box-3.svg'
-import HomeBanner from '@/img/home-banner.png'
+import HomeBanner from '@/img/home-banner-new.png'
 import Image from 'next/image';
 import TypewriterComponent from "typewriter-effect";
 export default function Banner() {
@@ -23,14 +23,14 @@ export default function Banner() {
                                     />
                                 </span>
                             </h2>
-                            <p>Our Popular Plugins classNameified Listing, The Post Grid, Team member, Testimonial Slider, Woocommerce Variation Swatches & Gallery.</p>
+                            <p>Develop perfect products that is easy to use, highly customizable and offering innovative features you have never seen before</p>
                             <div className="home_boxs d-flex">
                                 <div className="home_box d-flex align-items-center bg-white py-2 px-4 rounded-pill me-2">
                                     <div className="Image me-2">
                                         <Image src={BoxOne} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">
-                                        <b className="m-0 fw-semibold">80+</b>
+                                        <b className="m-0 fw-semibold">22+</b>
                                         <small className="m-0 d-block">Premium Product</small>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ export default function Banner() {
                                         <Image src={BoxTwo} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">
-                                        <b className="m-0 fw-semibold">120,000+</b>
+                                        <b className="m-0 fw-semibold">991+</b>
                                         <small className="m-0 d-block">Happy Clients</small>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ export default function Banner() {
                                         <Image src={BoxThree} alt="SynchroTheme" />
                                     </div>
                                     <div className="content lh-sm">
-                                        <b className="m-0 fw-semibold">100,000+</b>
+                                        <b className="m-0 fw-semibold">100,00+</b>
                                         <small className="m-0 d-block">Tickets Solved</small>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ export default function Banner() {
                     </div>
                     <div className="col-md-5 align-self-center">
                         <div className="home_banner_img text-end">
-                            <Image src={HomeBanner} alt="SynchroTheme" />
+                            <Image src={HomeBanner} alt="SynchroTheme" height={300}/>
                         </div>
                     </div>
                 </div>

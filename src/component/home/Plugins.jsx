@@ -39,9 +39,8 @@ export default function Plugins() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 offset-md-3">
-                        <div className="section_title text-center pb-4">
+                        <div className="section_title text-center mb-5 pb-4">
                             <h4>Our Popular Plugins</h4>
-                            <p>We are Power Elite author at Envato Market we have 10+ WordPress Plugins in WordPress Plugin Directory.</p>
                         </div>
                     </div>
                 </div>

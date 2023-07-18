@@ -22,6 +22,8 @@ export default function Plugin({ plugins }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/favicon.ico" />
                 <title>Plugin - SynchroTheme</title>
+                <meta name="description" content="Synchrotheme is a talented web application and WordPress development agency based in Chittagong, Bangladesh.Synchrotheme is a team of tech lover and web enthusiasts with the mission to provide web application, wordpress theme and plugin with affordable price. Our mission is to deliver perfect products that is easy to use, highly customizable and offering innovative features you have never seen before. Our qualified support team is alert to support you 24×7." />
+                <meta name="keywords" content="HTML, CSS, JavaScript,PHP, WordPress" />
             </Head>
             <Header />
 
